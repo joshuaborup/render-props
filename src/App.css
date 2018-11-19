@@ -1,0 +1,25 @@
+.App {
+	min-height: 100vh;
+	min-width: 100vw;
+	background-color: rgb(218, 218, 218);
+}
+
+.pokemonCards-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.pokemonCards-container img {
+	margin: 10px;
+	transition: 0.25s;
+	border-radius: 10px;
+}
+.pokemonCards-container img:hover {
+	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.65);
+}

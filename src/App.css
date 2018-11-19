@@ -4,7 +4,7 @@
 	background-color: rgb(218, 218, 218);
 }
 
-.pokemonCards-container {
+.Cards-container {
 	max-width: 1000px;
 	margin: 0 auto;
 	width: 100%;
@@ -15,11 +15,11 @@
 	position: relative;
 }
 
-.pokemonCards-container img {
+.Cards-container img {
 	margin: 10px;
 	transition: 0.25s;
 	border-radius: 10px;
 }
-.pokemonCards-container img:hover {
+.Cards-container img:hover {
 	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.65);
 }

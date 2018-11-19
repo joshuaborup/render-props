@@ -16,7 +16,7 @@ export default class DataFetcher extends Component {
 	async fetchData() {
 		// wait for the axios response to come back
 		const resource = await axios.get(this.props.url);
-		//set state with the response
+		//set state with the response.data
 		this.setState({
 			data: resource.data
 		});
